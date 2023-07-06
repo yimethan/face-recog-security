@@ -47,7 +47,7 @@ try:
 
 	print('Stand in front of the camera.')
 	time.sleep(2)
-	filename = 'newpic.jpg'
+	filename = './static/newpic.jpg'
 	os.system('libcamera-still -o newpic.jpg')
 
 	print("Comparing...")
